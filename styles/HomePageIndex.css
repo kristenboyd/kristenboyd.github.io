@@ -1,0 +1,97 @@
+
+html {
+background-image: url("../images/beautybrushes.jpg"); }
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 964px;)
+	background-color: pink );
+	margin: 15px auto;
+ 	padding: 0;
+	border: 5px dotted #7971CF;
+	box-shadow: 0 9px 18px 9px;
+}
+
+a { font-weight: bold;
+color: #7ACC3D;  }
+a:link, a:visited {
+ color: #7971CF }
+a:focus, a:hover {
+  color: green;}
+
+
+/* header */
+header {
+	background-image:
+		 -webkit-linear-gradient(45deg, white 10%, #5FA5F0 60%, #0871E1 90%);
+}
+
+/* the styles for the header */
+header img { float: left; }
+header h2 {
+	font-style: italic;
+	font-size: 200%;
+	text-indent: 25px;
+    color: #024EA4;
+	margin-top: 0;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    text-align: center;
+}
+
+/* the styles for sidebarA */
+#sidebarA {
+	width: 175px;
+	height: 750px; /* height for the border*/
+	float: left;
+	background-color: #A5C9EF;
+	border-right: 5px dotted #7971CF; }
+
+#nav_menu_1 {
+	list-style: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em; }
+
+#nav_menu_1 ul li a {
+
+	display: block;
+	padding: .5em 0 .5em 1.5em;
+	text-decoration: none;
+	font-weight: none;
+	color: blue; }
+
+	#nav_menu_1 ul li a.current {
+		background-color: silver;
+
+ }
+
+
+
+#sidebarB {
+	width: 175px;
+	height: 750px; /* height for the border*/
+	float: right;
+	background-color: #A5C9EF;
+	/* padding: 0; */
+	border-left: 5px dotted #7971CF;
+}
+/* the styles for the main content */
+ main {
+	width: 600px;
+	height: 750px;
+	float: left;
+	background-color: #A5C9EF;
+
+}
+
+/* the styles for footer */
+footer p {
+	border-top: 2px solid black;
+	font-size: 90% ;
+	text-align: center;
+	margin-bottom: 0;
+	background-image:
+		 -webkit-linear-gradient(45deg, white 10%, #5FA5F0 60%, #0871E1 90%);
+}

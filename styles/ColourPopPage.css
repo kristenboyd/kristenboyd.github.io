@@ -1,0 +1,62 @@
+
+html {
+background-image: url("../Images/ColourPop/IMG_0910.jpg"); }
+
+
+* { margin: 0, padding 0; }
+
+body {
+  width: 962px;
+  background-color: white;
+  margin: 15px auto;
+  border: 1px solid black; }
+
+  h2 { padding: 1em; }
+
+  header {
+  	background-image:
+  		 -webkit-linear-gradient(45deg, white 10%, #EA77D9 60%, #E708C5 90%);
+    border-bottom: 2px solid orange;
+  }
+
+  main {
+    background-color: #F4D3EF;
+    height: 3500px;
+    width: 660px;
+    float: right;
+    border-left: 2px solid pink }
+
+aside {
+  height: 3500px;
+  width: 295px;
+  float: left;
+  background-color: #F0B2E6;
+  border-right: 5px dotted #7971CF;
+ }
+
+ #nav_menu_1 {
+   list-style: none;
+   margin-left: 1.25em;
+   margin-bottom: 1.5em; }
+
+ #nav_menu_1 ul li a {
+
+   display: block;
+   padding: .5em 0 .5em 1.5em;
+   text-decoration: none;
+   font-weight: none;
+   color: blue; }
+
+   #nav_menu_1 ul li a.current {
+     background-color: silver;
+
+  }
+
+  footer {
+    color: black;
+    width: 962px;
+    height: 80px;
+    clear: both;
+    border-top: 2px solid #E67A51;
+    background-color: #E708C5;
+  }

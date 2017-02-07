@@ -1,0 +1,62 @@
+
+html {
+background-image: url("../images/UrbanDecay/urbanlogo.jpg"); }
+
+* { margin: 0, padding 0; }
+
+* { margin: 0, padding 0; }
+
+body {
+  width: 962px;
+  background-color: white;
+  margin: 15px auto;
+  border: 1px solid black; }
+
+  h2 { padding: 1em; }
+
+  header {
+  	background-image:
+  		 -webkit-linear-gradient(45deg, white 10%, #A971EC 60%, #6A13D1 90%);
+    border-bottom:  5px dotted #E1DB1E;
+  }
+
+  main {
+    background-color: #E4CFFD;
+    height: 2600px;
+    width: 660px;
+    float: right;
+    border-left:  5px dotted #E1DB1E }
+
+aside {
+  height: 2600px;
+  width: 292px;
+  float: left;
+  background-color: #E4CFFD;
+  border-right: 5px dotted #7971CF;
+ }
+
+ #nav_menu_1 {
+   list-style: none;
+   margin-left: 1.25em;
+   margin-bottom: 1.5em; }
+
+ #nav_menu_1 ul li a {
+
+   display: block;
+   padding: .5em 0 .5em 1.5em;
+   text-decoration: none;
+   font-weight: none;
+   color: blue; }
+
+   #nav_menu_1 ul li a.current {
+     background-color: silver;
+  }
+
+  footer {
+    color: yellow;
+    width: 962px;
+    height: 80px;
+    clear: both;
+    border-top: 2px dotted #7971CF;
+    background-color: #B074F7;
+  }
